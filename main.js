@@ -102,7 +102,7 @@ function leftClick(dom)//点击左键的函数
         }
         setTimeout(function(){
             aBox.style.display='block'
-             aImg.style. background='url("img/失败.png")';
+             aImg.style. background='url("img/defeated.png")';
              aImg.style.backgroundSize='100% 100%' ;
         },800);
     }
@@ -173,7 +173,7 @@ function rightClick(dom)
             setTimeout(function()
             {
                 aBox.style.display='block';
-                aImg.style.background='url("img/胜利.jpg")';
+                aImg.style.background='url("img/victory.jpg")';
                 aImg.style.backgroundSize='100% 100%';
             },1000);
             
